@@ -1,0 +1,11 @@
+# Laufzeitdaten der Tools
+**/output/
+**/logs/
+
+# Echte Kundendaten: nur *.example.csv werden eingecheckt
+*.csv
+!*.example.csv
+
+# Lokale Credentials / Notizen
+*.cred.xml
+*.local.*

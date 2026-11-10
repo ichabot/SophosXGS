@@ -79,3 +79,7 @@ Regeln, damit sich die Tools nicht in die Quere kommen:
 - **Login fehlgeschlagen**: API aktiviert? Client-IP freigegeben? Benutzer/Passwort korrekt?
 - **Statuscode ≠ 200**: Details auf der Firewall in der Advanced Shell unter `/log/apiparser.log`.
 - **Feldnamen unklar**: Objekt in der GUI anlegen und per `Get-XgsObject -Tag <Typ> -Raw` auslesen. So sieht man das Schema der eigenen Firmware.
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE).
